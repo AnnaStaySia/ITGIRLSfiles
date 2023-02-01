@@ -1,0 +1,209 @@
+@media screen and (max-width: 767px) {
+    .promo {
+       display: none;
+    } 
+
+    .nav{
+        display: none;
+       }   
+    
+    .banner{
+       display: flex;
+       flex-direction: column-reverse;
+       text-align: center;
+    }
+
+    h1{
+        font-size: 2.5rem ;
+    }
+
+    .p2{
+        font-size: 2rem;
+    }
+
+    .partners{
+       display: none
+    }
+
+    .button2{
+       padding-bottom: 10%;
+    }
+
+    .steps{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+    }
+
+    .step{
+       padding: 8% 8%;
+       margin-bottom: 15%;
+    }
+
+    .descr{
+       display: none;
+    }
+
+    .benefits1,.benefits2{
+       display: none;
+    }
+
+    .catalog{
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-template-rows: 1fr 1fr 1fr;
+       grid-gap: 2%;
+       padding: 2% 2%;
+       margin-bottom: 20%;
+   }
+
+   .card-4, .card-5, .card-6 {
+       display: none;
+   }
+
+   .locations {
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+       
+   }    
+   }
+   
+   @media screen and (min-width: 768px) and (max-width: 1023px){   
+
+    .container{
+        padding: 0 5vh;
+    }
+   .promo{
+       display: none;
+   }
+
+   .NavMobile{
+        background-color: #CF6F49;
+        color: white;
+        border-radius: 3px;
+        padding: 5px 20px;
+        border: 1px solid #CF6F49 ;
+}
+   
+   .nav{
+    display: none;
+   }
+
+   #search{
+    margin: 1%
+   }
+
+   h1{
+    font-size: 2.5rem;
+   }
+
+   .coverphotoAdapt{
+       width: 70%;
+   }
+
+   #logo{
+       margin: 3% 3%;
+   }
+
+   .partners{
+       display: none;
+   }
+
+   .button2{
+       margin: 3% 0;
+   }
+
+   .steps{
+       display: flex;
+       flex-direction: column;
+       padding-top: 0;
+   }
+
+   .step{
+       margin-top: 4%;
+   }
+
+   .benefits1, .benefits2{
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .benefittext{
+    padding: 5% 5%;
+    margin: 0;
+   }
+
+
+   .photoB{
+       width: 50%;
+   }
+   
+   .banner{
+       display: flex;
+       width: 100%;
+       max-width: 100%;
+       flex-direction: column;
+       text-align: center;
+    }
+
+   .nav{
+       display: none;
+   }
+   
+   .coverinfo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 0 10%;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+width: 1;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1500px){
+   .NavMobile{
+       display: none;
+   }
+   
+   .p1{
+    padding: 0 10%;
+   }
+
+   .container{
+    padding: 0 5vh;
+   }
+
+   .benefittext{
+    padding: 5% 5%;
+    margin: 5% 5%;
+   }
+   
+   .descr{
+    padding: 2% 5%;
+    }
+
+    .photoB{
+        width: 50%;
+    }
+
+    .step{
+        padding: 3% 0;
+    }  
+}
+
+@media screen and (min-width: 1500px){
+    .NavMobile{
+        display: none;
+    }
+
+    .descr{
+        padding: 2% 5%;
+    }
+
+    .step{
+        padding: 3% 0;
+    }
+    
+}

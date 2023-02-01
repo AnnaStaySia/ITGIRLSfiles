@@ -1,0 +1,238 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 10vh;
+}
+
+.Smallpict{
+    width: 100%;
+}
+
+button{
+    background-color: #CF6F49;
+    color: white;
+    border-radius: 3px;
+    padding: 9px 21px;
+    border: 1px solid #CF6F49 ;
+}
+
+.button2{
+    margin-top: 15px;
+}
+
+.button3{
+    margin-top: 2%;
+}
+
+
+p, h1, h2{
+    font-family: 'Roboto', sans-serif;  
+    color: #2A2C1F;
+}
+
+h1{
+    font-size: 3rem;   
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+#search{
+    border: 1px solid #E7E8E3;
+    border-radius: 7px;
+    width: 15vw;
+    height: 5vh;
+    margin: 5%;
+}
+
+.p1{
+    font-size: 1.5rem;
+    color: #2A2C1F;
+}
+
+.p2{
+    font-size: 1.3em;
+    color: #2A2C1F;
+}
+
+.promo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #939878;
+    padding: 9px 0 ;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    padding: 0 32px;  
+}
+
+ul{
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;         
+}
+
+.nav{
+    display: inline-flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+button:hover{
+    background-color: #939878;
+    border: 1px solid  #939878;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;    
+    background-color: #F5F5F2;
+    margin: auto;
+}
+
+.pict {
+    width: 100%;
+    max-width: 100%;   
+}
+
+.pictContainer {
+       
+}
+
+.coverinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 1;
+}
+
+.description{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.partners{
+    display: flex;
+    justify-content: end;
+    padding-top: 64px;
+}
+
+
+.mainCatalog {
+    background-color: #F5F5F2 ;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.catalog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2%;
+    padding: 2% 2%;
+}
+
+.card{
+    display: grid;
+    background-color: white;
+    border-radius: 10px;        
+}
+
+.address{
+   color: #65665C;
+}
+
+.name, .location{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.locations {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5%; 
+}
+
+.location{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding: 8% 3%;
+    
+}
+
+.steps{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 5%;  
+}
+
+.step{
+    border: 1px solid lightgray;
+    border-radius: 10px; 
+    padding: 3% 3%;  
+    text-align: center;           
+}
+
+.benefits1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.benefits2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.benefittext{
+    margin: 10% 15%;
+    text-align: center;
+}
+
+
+.photo{
+    width: 100%;
+}
+
+
+.benefits2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inCatalog{
+    padding-top: 3%;
+}
+
+.photoB{
+    width: 100%;
+}
+
+
